@@ -186,13 +186,6 @@ body {
     font-size: 1.4rem;
     color: #333; }
 
-.blog-posts {
-  display: flex;
-  flex-direction: column;
-  align-items: center; }
-  .blog-posts:last-child {
-    margin-bottom: 5rem; }
-
 .header__text-box {
   text-align: center;
   margin-bottom: 10rem; }
@@ -202,14 +195,3 @@ body {
   padding: 4rem 7rem;
   background-color: #f7f7f7;
   margin-bottom: 5rem; }
-
-.react-router-modal__backdrop {
-  background-color: rgba(0, 0, 0, 0.8) !important;
-  height: calc(100vh - 10rem);
-  overflow-y: scroll; }
-
-.react-router-modal__modal {
-  border: none !important;
-  width: 75vw;
-  height: calc(100vh - 10rem);
-  overflow-y: scroll; }
